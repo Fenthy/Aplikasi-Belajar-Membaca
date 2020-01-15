@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/bg6"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:background="#2AC485"
+                android:gravity="center"
+                android:text="Mari Belajar Membaca"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/gumbo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/custom"
+                android:gravity="center"
+                android:text="Selamat Datang di Aplikasi Belajar Membaca!!!"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/gumbo"
+                android:layout_marginTop="100dp"/>
+
+            <Button
+                android:id="@+id/abc"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="290dp"
+                android:background="@drawable/custom1"
+                android:text="ABC"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="@font/gumbo"/>
+
+            <Button
+                android:id="@+id/mengeja"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/custom1"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:fontFamily="@font/gumbo"
+                android:textSize="20dp"
+                android:text="MENGEJA" />
+
+            <Button
+                android:id="@+id/kalimat"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="290dp"
+                android:fontFamily="@font/gumbo"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#FFFF"
+                android:background="@drawable/custom1"
+                android:text="KALIMAT" />
+
+            <Button
+                android:id="@+id/kuis"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/custom1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:fontFamily="@font/gumbo"
+                android:text="KUIS" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

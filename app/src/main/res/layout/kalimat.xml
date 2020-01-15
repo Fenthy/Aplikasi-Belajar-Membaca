@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kalimat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="450dp"
+                android:background="@drawable/bg6"/>
+
+            <Button
+                android:id="@+id/btnmenu1"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="415dp"
+                android:layout_marginLeft="270dp"
+                android:fontFamily="@font/gumbo"
+                android:text="HOME"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/custom1"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:background="#2AC485"
+                android:fontFamily="@font/gumbo"
+                android:gravity="center"
+                android:text="Belajar Membaca Kalimat"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/kalimat1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playnamasaya"
+                android:theme="@style/style1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:text="NAMA SAYA RARA"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/kalimat2"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playmaumakan"
+                android:text="RARA MAU MAKAN"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat3"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playdiamarah"
+                android:text="DIA MARAH"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat4"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playlagimain"
+                android:text="AKU LAGI MAIN"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat5"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="235dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playminumjus"
+                android:text="SAYA MINUM JUS"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat6"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="235dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playmakannasi"
+                android:text="RARA MAKAN NASI"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat7"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playgitaritu"
+                android:text="GITAR ITU BAGUS"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat8"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playsayursawi"
+                android:text="SAYUR SAWI"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat10"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="360dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playsayuritu"
+                android:text="SAYUR ITU SEHAT"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kalimat9"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="360dp"
+                android:background="@drawable/custom"
+                android:fontFamily="@font/gumbo"
+                android:onClick="playadikmarah"
+                android:text="ADIK MARAH"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

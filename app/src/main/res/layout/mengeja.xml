@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mengeja">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="450dp"
+                android:background="@drawable/bg2"/>
+
+            <Button
+                android:id="@+id/btnmenu2"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="415dp"
+                android:layout_marginLeft="270dp"
+                android:fontFamily="@font/gumbo"
+                android:text="HOME"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/custom1"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:background="#2AC485"
+                android:gravity="center"
+                android:text="Belajar Mengeja"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/gumbo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/saya"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:text="SA-YA"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playsaya"/>
+
+    <Button
+        android:id="@+id/rara"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="100dp"
+        android:text="RA-RA"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playrara"/>
+
+    <Button
+        android:id="@+id/yang"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="170dp"
+        android:text="YA-NG"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playyang"/>
+
+    <Button
+        android:id="@+id/lama"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="170dp"
+        android:text="LA-MA"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playlama"/>
+
+    <Button
+        android:id="@+id/makan"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="235dp"
+        android:text="MA-KAN"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playmakan"/>
+
+    <Button
+        android:id="@+id/minum"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="235dp"
+        android:text="MI-NUM"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playminum"/>
+
+    <Button
+        android:id="@+id/gitar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:text="GI-TAR"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playgitar"/>
+
+    <Button
+        android:id="@+id/musik"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="300dp"
+        android:text="MU-SIK"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playmusik"/>
+
+    <Button
+        android:id="@+id/dia"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="360dp"
+        android:text="DI-A"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playdia"/>
+
+    <Button
+        android:id="@+id/aku"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="360dp"
+        android:text="A-KU"
+        android:fontFamily="@font/gumbo"
+        android:background="@drawable/custom"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="playaku"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

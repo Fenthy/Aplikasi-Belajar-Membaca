@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kuis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="480dp"
+                android:background="@drawable/b5"/>
+
+    <LinearLayout
+        android:id="@+id/lineskor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Skor : "
+            android:textAlignment="center"
+            android:fontFamily="@font/gumbo"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/custom1"/>
+
+        <TextView
+            android:id="@+id/tvskor"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="0"
+            android:fontFamily="@font/gumbo"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/custom1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linesoal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/lineskor"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvsoal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/gumbo"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/linepilihanjawaban"
+       android:layout_width="match_parent"
+       android:layout_height="175dp"
+       android:layout_below="@+id/linesoal"
+       android:layout_margin="10dp">
+        <RadioGroup
+            android:id="@+id/rgpilihanjawaban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbpilihanjawaban1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/gumbo"
+                android:background="@drawable/custom"
+                android:textColor="#FFF"/>
+
+            <RadioButton
+                android:id="@+id/rbpilihanjawaban2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/gumbo"
+                android:background="@drawable/custom"
+                android:textColor="#FFF"/>
+
+            <RadioButton
+                android:id="@+id/rbpilihanjawaban3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/gumbo"
+                android:background="@drawable/custom"
+                android:textColor="#FFF"/>
+
+            <RadioButton
+                android:id="@+id/rbpilihanjawaban4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/gumbo"
+                android:background="@drawable/custom"
+                android:textColor="#FFF"/>
+        </RadioGroup>
+    </LinearLayout>
+
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@+id/linepilihanjawaban"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom1"
+                android:textSize="20dp"
+                android:fontFamily="@font/gumbo"
+                android:textColor="#FFF"
+                android:text="Submit" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

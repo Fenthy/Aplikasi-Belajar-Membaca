@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilSkoring">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:background="#2AC485"
+        android:text="Selamat Telah Berhasil Menjawab"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/gumbo"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/bg3"
+                android:layout_marginBottom="100dp"/>
+
+            <TextView
+                android:id="@+id/tvskorakhir"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="80dp"
+                android:fontFamily="@font/gumbo"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="SKOR : 100"
+                android:textColor="#FFF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnmenu"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="155dp"
+                android:background="@drawable/custom1"
+                android:fontFamily="@font/gumbo"
+                android:layout_marginTop="600dp"
+                android:gravity="center"
+                android:text="HOME"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
